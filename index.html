@@ -1,13 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Segunda entrega</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link rel="stylesheet" href="./sass/scss/layout.css">
+  <link rel="icon" href="./assets/img/muffin.png" type="image/x-icon">
+  <title>Despacho de Dulces</title>
+
 </head>
+
 <body>
-    <script src="stock.js"></script>
-    <script src="main.js"></script>
+  <header>
+  <!-- LOGO Y BARRA NAV -->
+
+    <nav class="container-fluid navbar1 navbar navbar-expand-lg navbar-light bg">
+      <div class="container-fluid">
+        <img src="./assets/img/muffin.png" alt="Logo" class="logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse menu" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="active nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Cakes</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Postres</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+
+            <div class="redes">
+              <a href="#"><i class="fa-brands fa-instagram logo-redes"></i></a>
+              <a href="#"><i class="fa-brands fa-whatsapp logo-redes"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook logo-redes"></i></a>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <main>
+
+  <!-- STOCK DE PRODUCTOS -->
+    <div id="stockDiv">
+      <h1 class="welcome">¡Bienvenido/a al Despacho de Dulces!</h1>
+      <div id="stockContainer" class="container"></div>
+    </div>
+
+  <!-- CARRITO -->
+    <div id="fondoCarrito">
+      <i class="fa-solid fa-cart-shopping"></i>
+      <div id="cart" class="container"></div>
+      <div class="vaciarCarritoContainer">
+        <button type="button" id="vaciarCarrito" class="btn btn-dark">VACIAR CARRITO</button>
+      </div>
+    </div>
+
+  <!-- FORMULARIO DE COMPRA -->
+    <div id="form" class="container col-md-6">
+      <h3>Completá los siguientes datos para finalizar la compra:</h3>
+      <form method="post" class="formulario">
+        <label fo||r="nombre" class="form-label">Nombre completo: </label>
+        <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Ingresá tu nombre..." required>
+        <label for="email" class="form-label">E-mail: </label>
+        <input type="email" class="form-control" name="email" id="email" placeholder="Ingresá tu email..." required>
+        <label for="telefono" class="form-label">Teléfono: </label>
+        <input type="text" class="form-control" name="telefono" id="telefono" placeholder="Ingresá tu teléfono...">
+        <label for="adress" class="form-label">Dirección: </label>
+        <input type="text" class="form-control" name="adress" id="direccion" placeholder="Ingresá tu dirección...">
+    </div>
+
+    <div class="btn-container">
+      <button class="btn btn-dark" id="finalizarCompra">FINALIZAR COMPRA</button>
+    </div>
+
+  </main>
+
+<!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h6>Descripción</h6>
+          <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet modi, dolores vel rerum nesciunt deserunt incidunt eius quod nulla nihil molestiae expedita vero esse excepturi? Repudiandae similique dolorum nulla iste.</p>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>links rápidos</h6>
+          <ul class="footer-links">
+            <li><a href="#">INICIO</a></li>
+            <li><a href="#">NOSOTROS</a></li>
+            <li><a href="#">CAKES</a></li>
+            <li><a href="#">POSTRES</a></li>
+            <li><a href="#">CONTACTO</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <hr>
+
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2022 Todos los derechos reservados por Despacho de Dulces.<br>Desarrollado por Eugenio Pello</p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a href="#" target="_blank" rel="noopener noreferrer" class="facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer" class="whatsapp"><i class="fa fa-whatsapp"></i></a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer" class="instagram"><i class="fa fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+<!-- SCRIPTS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/1cba637fbf.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script src="./js/main.js"></script>
+
 </body>
 </html>

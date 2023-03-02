@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "nombre": "Oreo",
+    "categoria": "Tortas",
+    "precio": 2700,
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt praesentium quia esse! Corporis, inventore sed cupiditate delectus quibusdam minima ea minus, laudantium quos incidunt molestiae adipisci. Ipsum, incidunt nobis!",
+    "img": "./assets/img/oreo.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Chocotorta",
+    "categoria": "Tortas",
+    "precio": 2300,
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt praesentium quia esse! Corporis, inventore sed cupiditate delectus quibusdam minima ea minus, laudantium quos incidunt molestiae adipisci. Ipsum, incidunt nobis!",
+    "img": "./assets/img/chocotorta.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Tiramisú",
+    "categoria": "Tortas",
+    "precio": 2200,
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt praesentium quia esse! Corporis, inventore sed cupiditate delectus quibusdam minima ea minus, laudantium quos incidunt molestiae adipisci. Ipsum, incidunt nobis!",
+    "img": "./assets/img/tiramisu.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Lemon Pie",
+    "categoria": "Tortas",
+    "precio": 2800,
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt praesentium quia esse! Corporis, inventore sed cupiditate delectus quibusdam minima ea minus, laudantium quos incidunt molestiae adipisci. Ipsum, incidunt nobis!",
+    "img": "./assets/img/lemonpie.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Marquise",
+    "categoria": "Tortas",
+    "precio": 3000,
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt praesentium quia esse! Corporis, inventore sed cupiditate delectus quibusdam minima ea minus, laudantium quos incidunt molestiae adipisci. Ipsum, incidunt nobis!",
+    "img": "./assets/img/marquise.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Raspberry Cheesecake",
+    "categoria": "Tortas",
+    "precio": 3200,
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt praesentium quia esse! Corporis, inventore sed cupiditate delectus quibusdam minima ea minus, laudantium quos incidunt molestiae adipisci. Ipsum, incidunt nobis!",
+    "img": "./assets/img/raspberry.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Vainilla",
+    "categoria": "Muffins",
+    "precio": 500,
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt praesentium quia esse! Corporis, inventore sed cupiditate delectus quibusdam minima ea minus, laudantium quos incidunt molestiae adipisci. Ipsum, incidunt nobis!",
+    "img": "./assets/img/vainilla.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Chocolate intenso",
+    "categoria": "Muffins",
+    "precio": 700,
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt praesentium quia esse! Corporis, inventore sed cupiditate delectus quibusdam minima ea minus, laudantium quos incidunt molestiae adipisci. Ipsum, incidunt nobis!",
+    "img": "./assets/img/chocolateintenso.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Marmolado",
+    "categoria": "Muffins",
+    "precio": 600,
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt praesentium quia esse! Corporis, inventore sed cupiditate delectus quibusdam minima ea minus, laudantium quos incidunt molestiae adipisci. Ipsum, incidunt nobis!",
+    "img": "./assets/img/marmolado.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Orange Glaze",
+    "categoria": "Muffins",
+    "precio": 750,
+    "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt praesentium quia esse! Corporis, inventore sed cupiditate delectus quibusdam minima ea minus, laudantium quos incidunt molestiae adipisci. Ipsum, incidunt nobis!",
+    "img": "./assets/img/orangeglaze.jpg"
+  }
+]

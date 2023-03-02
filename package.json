@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "node-fetch": "^3.2.8"
+  },
+  "name": "despacho-de-dulces",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eugepello/despacho-de-dulces.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eugepello/despacho-de-dulces/issues"
+  },
+  "homepage": "https://github.com/Eugepello/despacho-de-dulces#readme",
+  "description": ""
+}
